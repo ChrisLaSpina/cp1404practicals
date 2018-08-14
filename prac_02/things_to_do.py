@@ -1,0 +1,6 @@
+def main():
+    for i in range(0, 101, 50):
+        print("{0:>3}".format(i))
+
+
+main()
