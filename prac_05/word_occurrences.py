@@ -8,7 +8,6 @@ def main():
         counted_phrase[word] = counts
 
     for word, count in counted_phrase.items():
-        # print(word, ":", count)
         print("{:{}} : {}".format(word, 8, count))
 
 
