@@ -7,7 +7,10 @@ File needs reformatting
 # TODO: Reformat this file so the dictionary code follows PEP 8 convention
 STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Territory", "WA": "Western Australia",
                "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
-# print(STATE_NAMES)
+
+
+for state in range(1, len(STATE_NAMES)):
+    print(STATE_NAMES)
 
 state = input("Enter short state: ")
 while state != "":
