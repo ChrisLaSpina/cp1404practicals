@@ -8,9 +8,9 @@ File needs reformatting
 STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Territory", "WA": "Western Australia",
                "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
 
+for part_name,full_name in STATE_NAMES.items():
+    print(part_name, "is", full_name)
 
-for state in range(1, len(STATE_NAMES)):
-    print(STATE_NAMES)
 
 state = input("Enter short state: ")
 while state != "":
